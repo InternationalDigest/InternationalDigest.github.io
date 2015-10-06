@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px|Open+Sans);
+
+body {
+	background-color: #333333;
+}
+
+p {
+	font-family: 'Lucida Bright', Georgia, 'Times New Roman', Times, serif;
+	color: #f9f9f9;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Slabo 27px', serif;
+	color: #cccccc;
+	font-weight: 600;
+}
+
+a {
+	color: #cccccc;
+}
+
+address {
+	font-family: 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-style: normal;
+	color: #666666;
+}
+
+address a {
+	color: #666666;
+}
+
+article a:hover {
+	color: inherit;
+}
+
+address a:hover {
+	color: inherit;
+	font-style: italic;
+}
+
+.subordinate {
+	font-family: 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.icon-bar a:hover {
+	background-color: #cccccc;
+}
+.icon-bar a:hover i, .icon-bar a:hover label {
+	color: #333333;
+}
+
+nav {
+	margin-bottom: 3vh;
+}
+.logo {
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+	display: block;
+	margin: auto;
+	width: 15vw;
+}
+
+.panel {
+	background-color: #cccccc;
+}
+
+.panel .subordinate {
+	color: #f9f9f9;	
+}
+
+footer {
+	border-bottom-color: #cccccc;
+	color: #cccccc;
+}
+
+footer a {
+	color: #cccccc;
+	font-family: 'Lucida Bright', Georgia, 'Times New Roman', Times, serif;
+}
+footer a:hover {
+	color: inherit;
+}
