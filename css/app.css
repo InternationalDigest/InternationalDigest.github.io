@@ -60,6 +60,10 @@ nav {
 	width: 15vw;
 }
 
+.row {
+	max-width: 88%;
+}
+
 .panel {
 	background-color: #cccccc;
 }
