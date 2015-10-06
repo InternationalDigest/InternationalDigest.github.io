@@ -19,6 +19,10 @@ a {
 	color: #cccccc;
 }
 
+span {
+	display: inline !important;
+}
+
 address {
 	font-family: 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	font-style: normal;
