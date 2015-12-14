@@ -1,0 +1,15 @@
+{
+  "short_name":"The Digest",
+  "name": "International Digest",
+  "icons": [
+    {
+      "src": "img/android-desktop.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "density": 4.0
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "portrait"
+}
