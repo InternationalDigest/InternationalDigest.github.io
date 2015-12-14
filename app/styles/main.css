@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+body {
+	background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/new_year_background.png');
+}
+
+.page-content {
+  font-family: 'Lucida Bright', Georgia, 'Times New Roman', Times, serif
+}
+
+article {
+  padding: 1em;
+}
+
+@media all and (min-width: 750px) {
+  article {
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+summary {
+  font-style: italic;
+  font-weight: 500;
+  padding-bottom: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto Slab', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.date {
+	font-style: italic;
+	padding: 1em;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.mdl-card {
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  min-height: 0;
+}
+
+.mdl-card__title {
+  padding-bottom: 0;
+}
+
+.main-peice-card.mdl-card {
+  height: 50vh;
+}
+.main-peice-card > .mdl-card__title {
+  padding: 0;
+  color: white;
+  background-image: url('../img/FrenchRegElectImg.jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-color: #fff;
+}
+
+.main-peice-card > .mdl-card__title > .mdl-card__title-text {
+  background-color: rgba(63, 81, 180, 1);
+  width: 100%;
+  padding: 0.5em;
+}
+
+.full-screen-card {
+  max-height: 0;
+  height: 100%;
+}
